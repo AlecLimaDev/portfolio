@@ -1,5 +1,5 @@
 :root {
-    --main-color: blueviolet;
+    --main-color: red;
 }
 
 .cursor-1 {
@@ -13,7 +13,6 @@
     pointer-events: none;
     transform: translate(-50%, -50%);
     border-radius: 50%;
-    z-index: 10000;
     padding: 1rem;
 }
 
