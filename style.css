@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Poppins:wght@500&family=Roboto+Condensed:wght@700&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -40,9 +42,31 @@
 }
 
 header {
-    background-color: aqua;
-    padding: 5px;
+    width: 100%;
+    background-color: rgb(234, 240, 240);
+    padding: 20px;
 }
+
+nav {
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+}
+
+header div .nome {
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    display: block;
+}
+
+header .navbar li a {
+    color: rgb(74, 69, 69);
+    font-family: sans-serif;
+}
+
+
+
+
 
 
 
