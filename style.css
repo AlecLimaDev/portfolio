@@ -64,8 +64,31 @@ header .navbar li a {
     font-family: sans-serif;
 }
 
+.content .container {
+    display: flex;
+    justify-content: center;
+}
 
+.content .container img {
+    width: 20%;
+    border-radius: 50%;
+    margin-top: 80px;
+}
 
+.meu-nome {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.front-end {
+    text-align: center;
+    font-family: sans-serif;
+    color: black;
+}
+
+.botao a {
+    text-align: center;
+}
 
 
 
