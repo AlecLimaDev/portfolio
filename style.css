@@ -66,12 +66,14 @@ header .navbar li a {
 .content .container {
     display: flex;
     justify-content: center;
+    background: rgb(88, 82, 82);
 }
 
 .content .container img {
     width: 20%;
     border-radius: 50%;
     margin-top: 80px;
+    margin-bottom: 60px;
 }
 
 .meu-nome {
@@ -89,6 +91,9 @@ header .navbar li a {
 
 .content .title {
     text-align: center;
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 100%;
 }
 
 .content .title .curriculum {
@@ -98,6 +103,25 @@ header .navbar li a {
     border-radius: 5px;
     margin-top: 5px;
     width: 10%;
+}
+
+.sobre {
+background-color: rgba(223, 223, 16, 0.698);
+}
+
+.sobre .container {
+    margin: 50px;
+    font-family: sans-serif;
+    padding: 50px;
+}
+
+.sobre .container h1 {
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.sobre .container p {
+ padding: 20px;
 }
 
 
