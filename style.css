@@ -2,6 +2,8 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
 }
 
 :root {
@@ -42,9 +44,7 @@ header {
     padding: 5px;
 }
 
-header nav a{
-    text-decoration: none;
-}
+
 
 
 
