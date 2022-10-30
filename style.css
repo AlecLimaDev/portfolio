@@ -33,3 +33,25 @@ html {
 body {
     background: var(--bg-color);
 }
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    background: var(--bg-color);
+    width: 30rem;
+    border-right: var(--border);
+    height: 100%;
+    padding: 2rem;
+    text-align: center;
+}
+
+.header .user img {
+    margin: 1rem 0;
+    border: 1rem solid transparent;
+    border-right: 50%;
+    height: 18rem;
+    width: 18rem;
+    box-shadow: var(--box-shadow);
+}
