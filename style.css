@@ -71,9 +71,10 @@ body {
 }
 
 .header .navbar a {
+    display: block;
     margin: 1.5rem 0;
     padding: .7rem;
-    border-right: 5rem;
+    border-radius: 5rem;
     font-size: 2rem;
     box-shadow: var(--box-shadow);
     color: var(--black);
