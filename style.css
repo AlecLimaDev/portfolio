@@ -66,10 +66,19 @@ body {
     font-size: 1.5rem;
 }
 
-
-
 .header .navbar{
-    padding-bottom: 1rem;
+    padding-top: 1rem;
 }
+
+.header .navbar a {
+    margin: 1.5rem 0;
+    padding: .7rem;
+    border-right: 5rem;
+    font-size: 2rem;
+    box-shadow: var(--box-shadow);
+    color: var(--black);
+}
+
+
 
 
