@@ -1,5 +1,19 @@
 
 
+:root {
+    --green: #27ae60;
+    --black: #444;
+    --light-color: #777;
+    --bg-color: #e6e6e6;
+    --border: 1rem solid rgba(0,0,0,.2);
+    --box-shadow: .4rem .4rem 1rem #ccc,
+                  .4rem .4rem 1rem #fff;
+    --box-shadow-inset: .4rem .4rem 1rem #ccc inset,
+                  .4rem .4rem 1rem #fff inset;
+}
+
+
+
 * {
     font-family: sans-serif;
     margin: 0; padding: 0;
