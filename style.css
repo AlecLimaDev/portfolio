@@ -79,6 +79,10 @@ body {
     color: var(--black);
 }
 
+.header .navbar a:hover {
+    box-shadow: var(--box-shadow-inset);
+}
+
 
 
 
