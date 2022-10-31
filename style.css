@@ -138,6 +138,7 @@ body {
 
     .header.active{
         left: 0%;
+        transition: .4s linear;
     }
 
     #menu-btn{
