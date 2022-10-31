@@ -1,7 +1,7 @@
-let menu = document.querySelector('.#menu-btn');
+let menu = document.querySelector('#menu-btn');
 let header = document.querySelector('.header');
 
 menu.onclick = () => {
     menu.classList.toggle('fa-times');
-    header.classList.toggle('actives');
+    header.classList.toggle('active');
 }

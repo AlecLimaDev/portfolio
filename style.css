@@ -84,6 +84,7 @@ body {
     box-shadow: var(--box-shadow-inset);
 }
 
+
 #menu-btn{
     position:fixed;
     top: 1.5rem; left: 2rem;
@@ -133,6 +134,10 @@ body {
 
     .header {
         left: -110%;
+    }
+
+    .header.active{
+        left: 0%;
     }
 
     #menu-btn{
