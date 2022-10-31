@@ -118,3 +118,34 @@ body {
 
 
 
+
+
+
+
+@media(max-width: 991px) {
+    html{
+        font-size: 55%;
+    }
+
+    body{
+        padding-left: 0;
+    }
+
+    .header {
+        left: -110%;
+    }
+
+    #menu-btn{
+        display: initial;
+    }
+
+}
+
+
+
+
+
+
+
+
+
