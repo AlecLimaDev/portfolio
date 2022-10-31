@@ -121,6 +121,11 @@ body {
     color: var(--black);
 }
 
+#theme-toggler:hover{
+    color: var(--green);
+    box-shadow: var(--box-shadow-inset);
+}
+
 
 
 
