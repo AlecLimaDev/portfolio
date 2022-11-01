@@ -51,6 +51,7 @@ section {
     padding: 2rem;
 }
 
+
 .header {
     position: fixed;
     top: 0;
@@ -156,6 +157,12 @@ section {
     color: var(--black);
     line-height: 1.1;
     text-transform: uppercase;
+}
+
+.home .content p {
+    font-size: 2rem;
+    color: var(--green);
+    padding-bottom: .5rem;
 }
 
 
