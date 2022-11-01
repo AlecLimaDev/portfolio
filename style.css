@@ -224,6 +224,12 @@ section {
     gap: 2rem;
 }
 
+.about .row .box-container {
+    flex: 1 1 40rem;
+    display: flex;
+    
+}
+
 
 
 
