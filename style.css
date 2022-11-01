@@ -189,6 +189,17 @@ section {
     padding: 1rem;
 }
 
+.home .share a {
+    height: 5rem;
+    width: 5rem;
+    line-height: 5rem;
+    box-shadow: var(--box-shadow);
+    margin: .5rem;
+    font-size: 2rem;
+}
+
+
+
 
 
 
