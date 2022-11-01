@@ -46,6 +46,11 @@ body.active {
                   .4rem .4rem 1rem #fff inset;
 }
 
+section {
+    min-height: 100vh;
+    padding: 2rem;
+}
+
 .header {
     position: fixed;
     top: 0;
@@ -138,6 +143,13 @@ body.active {
     box-shadow: var(--box-shadow-inset);
 }
 
+.home {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
 
 
 
