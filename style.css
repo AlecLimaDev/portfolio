@@ -217,6 +217,13 @@ section {
 }
 
 
+.about .row  {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    gap: 2rem;
+}
+
 
 
 
