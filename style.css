@@ -51,6 +51,22 @@ section {
     padding: 2rem;
 }
 
+.btn {
+    margin-top: 1rem;
+    display: inline-block;
+    padding: 1rem .5rem;
+    font-size: 1.7rem;
+    cursor: pointer;
+    background: none;
+    color: var(--black);
+    box-shadow: var(--box-shadow);
+}
+
+.btn:hover {
+    box-shadow: var(--box-shadow-inset);
+    color: var(--green);
+}
+
 
 .header {
     position: fixed;
@@ -163,6 +179,14 @@ section {
     font-size: 2rem;
     color: var(--green);
     padding-bottom: .5rem;
+}
+
+.home .share {
+    position: relative;
+    top: 10rem;
+    border-radius: .5rem;
+    box-shadow: var(--box-shadow);
+    padding: 1rem;
 }
 
 
