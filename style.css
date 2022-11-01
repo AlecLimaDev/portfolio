@@ -198,7 +198,10 @@ section {
     font-size: 2rem;
 }
 
-
+.home .share a:hover {
+    box-shadow: var(--box-shadow-inset);
+    color: var(--green);
+}
 
 
 
