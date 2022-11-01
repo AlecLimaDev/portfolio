@@ -134,6 +134,19 @@ section {
     color: var(--black);
 }
 
+.heading {
+    text-align: center;
+    font-size: 4rem;
+    color: var(--black);
+    text-transform: uppercase;
+    padding-bottom: 2rem;
+}
+
+.heading span {
+    color: var(--green);
+    text-transform: uppercase;
+}
+
 
 #menu-btn:hover{
     color: var(--green);
