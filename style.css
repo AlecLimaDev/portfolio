@@ -274,14 +274,11 @@ section {
 }
 
 .about .row .progress {
-    display: flex;
-   
+    flex: 1 1 40rem; 
 }
 
-.about .row .progrss h3 {
-    
-    align-items: center;
-
+.about .row:nth-child(3) {
+    padding-top: 8rem;
 }
 
 
