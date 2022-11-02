@@ -264,9 +264,11 @@ section {
 
 .about .row .content p {
     font-size: 1.5rem;
-    color: var(--black);
+    color: var(--light-color);
     line-height: 1.8;
+    padding: 1rem 0;
 }
+
 
 
 
