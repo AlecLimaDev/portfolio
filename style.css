@@ -132,6 +132,7 @@ section {
     box-shadow: var(--box-shadow);
     text-align: center;
     color: var(--black);
+    background: var(--bg-color);
 }
 
 .heading {
@@ -166,6 +167,7 @@ section {
     box-shadow: var(--box-shadow);
     text-align: center;
     color: var(--black);
+    background: var(--bg-color);
 }
 
 #theme-toggler:hover{
