@@ -220,7 +220,7 @@ section {
 .about .row  {
     display: flex;
     align-items: center;
-    flex-wrap: wrap-reverse;
+    flex-wrap: wrap;
     gap: 2rem;
 }
 
@@ -257,7 +257,7 @@ section {
 }
 
 .about .row .content h3 {
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     color: var(--black);
     line-height: 1.8;
 }
@@ -267,12 +267,11 @@ section {
 }
 
 .about .row .content p {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     color: var(--light-color);
     line-height: 1.8;
     padding: 1rem 0;
 }
-
 
 
 
