@@ -273,8 +273,16 @@ section {
     padding: 1rem 0;
 }
 
+.about .row .progress {
+    display: flex;
+   
+}
 
+.about .row .progrss h3 {
+    
+    align-items: center;
 
+}
 
 
 
