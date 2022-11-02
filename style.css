@@ -227,8 +227,15 @@ section {
 .about .row .box-container {
     flex: 1 1 40rem;
     display: flex;
-    
+    gap: 1.5rem;
+    flex-wrap: wrap;
 }
+
+.about .row .content {
+    flex: 1 1 40rem;
+}
+
+
 
 
 
