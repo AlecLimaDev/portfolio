@@ -376,6 +376,7 @@ section {
     background: var(--green);
     z-index: -1;
     clip-path: circle(9rem at 0% 5%);
+    transition: .3s linear;
 }
 
 
