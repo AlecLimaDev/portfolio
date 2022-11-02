@@ -243,6 +243,7 @@ section {
 .about .row .box-container .box h3 {
     font-size: 5rem;
     color: var(--black);
+    line-height: 1.1;
 }
 
 .about .row .box-container .box p {
@@ -250,6 +251,14 @@ section {
     color: var(--light-color);
     padding: .5rem 0;
 }
+
+.about .row .content {
+    flex: 1 1 40rem;
+}
+
+
+
+
 
 
 
