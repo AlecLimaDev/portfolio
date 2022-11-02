@@ -340,6 +340,17 @@ section {
     gap: 2rem;
 }
 
+.services .box-container .box {
+    padding: 2rem;
+    border-radius: .5rem;
+    box-shadow: var(--box-shadow);
+    position: relative;
+    z-index: 0;
+    overflow: hidden;
+}
+
+
+
 
 
 
