@@ -349,6 +349,11 @@ section {
     overflow: hidden;
 }
 
+.services .box-container .box i {
+    font-size: 4rem;
+    padding-bottom: 5rem;
+    color: #fff;
+}
 
 
 
