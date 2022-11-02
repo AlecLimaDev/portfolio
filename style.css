@@ -241,8 +241,14 @@ section {
 }
 
 .about .row .box-container .box h3 {
-    font-size: 4rem;
+    font-size: 5rem;
     color: var(--black);
+}
+
+.about .row .box-container .box p {
+    font-size: 1.5rem;
+    color: var(--light-color);
+    padding: .5rem 0;
 }
 
 
