@@ -409,7 +409,15 @@ section {
     object-fit: cover;
 }
 
-
+.portfolio .box-container .box .content {
+    position: absolute;
+    top: 0; left: 0;
+    height: 100%;
+    width: 100%;
+    background: var(--bg-color);
+    display: grid;
+    place-items: center;
+}
 
 
 .about .row .content {
