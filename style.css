@@ -394,6 +394,15 @@ section {
     gap: 2rem;
 }
 
+.portfolio .box-container .box {
+   height: 25rem; 
+   border-radius: .5rem;
+   overflow: hidden;
+   box-shadow: var(--box-shadow);
+   position: relative;
+   border: 1rem solid transparent;
+}
+
 
 
 
