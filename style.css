@@ -231,6 +231,18 @@ section {
     flex-wrap: wrap;
 }
 
+
+.about .row .box-container .box {
+    flex: 1 1 18rem;
+    text-align: center;
+    padding: 2rem;
+    border-radius: .5rem;
+    box-shadow: var(--box-shadow);
+}
+
+
+
+
 .about .row .content {
     flex: 1 1 40rem;
 }
