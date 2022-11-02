@@ -403,6 +403,11 @@ section {
    border: 1rem solid transparent;
 }
 
+.portfolio .box-container .box img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
 
 
 
