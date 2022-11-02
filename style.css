@@ -281,6 +281,15 @@ section {
     padding-top: 8rem;
 }
 
+.about .row .progress h3 {
+    color: var(--black);
+    font-weight: normal;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 
 
 
