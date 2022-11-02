@@ -379,7 +379,14 @@ section {
     transition: .3s linear;
 }
 
+.services .box-container .box:hover::before {
+    clip-path: circle(100%);
+}
 
+
+.services .box-container .box:hover > * {
+    color: #fff;
+}
 
 
 
