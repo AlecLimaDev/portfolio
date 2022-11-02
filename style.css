@@ -262,6 +262,10 @@ section {
     line-height: 1.8;
 }
 
+.about .row .content h3 span {
+    color: var(--green);
+}
+
 .about .row .content p {
     font-size: 1.5rem;
     color: var(--light-color);
