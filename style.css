@@ -240,6 +240,13 @@ section {
     box-shadow: var(--box-shadow);
 }
 
+.about .row .box-container .box h3 {
+    font-size: 4rem;
+    color: var(--black);
+}
+
+
+
 
 
 
