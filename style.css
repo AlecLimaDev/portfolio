@@ -290,7 +290,20 @@ section {
     justify-content: space-between;
 }
 
+.about .row .progress .bar {
+    box-shadow: var(--box-shadow);
+    border-radius: 5rem;
+    height: 2rem;
+    padding: .3rem;
+    margin: 1rem 0;
+}
 
+.about .row .progress .bar span {
+    display: block;
+    height: 100%;
+    background: var(--green);
+    border-radius: 5rem;
+}
 
 
 
