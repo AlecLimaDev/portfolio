@@ -440,6 +440,15 @@ section {
 }
 
 
+.contact form {
+    margin: 1rem auto;
+    max-width: 70rem;
+    border-radius: .5rem;
+    box-shadow: var(--box-shadow);
+    padding: 2rem;
+}
+
+
 .about .row .content {
     flex: 1 1 40rem;
 }
