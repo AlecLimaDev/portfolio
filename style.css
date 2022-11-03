@@ -465,6 +465,20 @@ section {
     resize: none;
 }
 
+.credits {
+    font-size: 2rem;
+    text-align: center;
+    padding: 2.5rem 1rem;
+    margin-top: 1rem;
+    border-top: var(--border);
+    color: var(--black);
+}
+
+
+.credits span {
+    color: var(--green);
+}
+
 
 .contact form .box:focus {
     box-shadow: var(--box-shadow-inset);
