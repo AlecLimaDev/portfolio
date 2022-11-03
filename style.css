@@ -448,6 +448,18 @@ section {
     padding: 2rem;
 }
 
+.contact form .box {
+    padding: 1.5rem 1rem;
+    width: 100%;
+    background: none;
+    color: var(--black);
+    font-size: 1.6rem;
+    text-transform: none;
+    margin: .7rem 0;
+    box-shadow: var(--box-shadow);
+    border-radius: .5rem;
+}
+
 
 .about .row .content {
     flex: 1 1 40rem;
