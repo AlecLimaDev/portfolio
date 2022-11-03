@@ -460,6 +460,16 @@ section {
     border-radius: .5rem;
 }
 
+.contact form textarea {
+    height: 20rem;
+    resize: none;
+}
+
+
+.contact form .box:focus {
+    box-shadow: var(--box-shadow-inset);
+}
+
 
 .about .row .content {
     flex: 1 1 40rem;
