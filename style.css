@@ -72,7 +72,7 @@ section {
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 999;
+    
     background: var(--bg-color);
     width: 30rem;
     border-right: var(--border);
@@ -276,7 +276,7 @@ section {
 }
 
 .about .row .progress {
-    flex: 1 1 40rem; 
+    flex: 1 1 40rem;
 }
 
 .about .row:nth-child(3) {
