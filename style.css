@@ -406,7 +406,7 @@ section {
 .portfolio .box-container .box img {
     height: 100%;
     width: 100%;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 .portfolio .box-container .box .content {
@@ -417,7 +417,7 @@ section {
     background: var(--bg-color);
     display: grid;
     place-items: center;
-    transform: scale(1);
+    transform: scale(0);
 }
 
 .portfolio .box-container .box:hover content {
