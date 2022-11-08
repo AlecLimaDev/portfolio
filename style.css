@@ -430,7 +430,7 @@ section {
     color: var(--black);
     text-transform: uppercase;
     transform: translateY(-5rem);
-    opacity: 5;
+    opacity: 0;
     transition-delay: .3s;
 }
 
