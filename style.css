@@ -417,11 +417,11 @@ section {
     background: var(--bg-color);
     display: grid;
     place-items: center;
-    transform: scale(0);
+    transform: scale(1);
 }
 
 .portfolio .box-container .box:hover content {
-    transform: scale(1);
+    transform: scale(0);
 }
 
 
