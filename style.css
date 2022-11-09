@@ -400,7 +400,7 @@ section {
    overflow: hidden;
    box-shadow: var(--box-shadow);
    position: relative;
-   border: 1rem solid transparent;
+   border: 1rem 1rem solid transparent;
 }
 
 .portfolio .box-container .box img {
@@ -479,6 +479,10 @@ section {
     color: var(--green);
 }
 
+
+.contact form {
+    position: relative;
+}
 
 .contact form .box:focus {
     box-shadow: var(--box-shadow-inset);
