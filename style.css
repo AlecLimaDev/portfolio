@@ -446,6 +446,8 @@ section {
     border-radius: .5rem;
     box-shadow: var(--box-shadow);
     padding: 2rem;
+    position: relative;
+    transition: all 4s;
 }
 
 .contact form .box {
@@ -479,10 +481,6 @@ section {
     color: var(--green);
 }
 
-
-.contact form {
-    position: relative;
-}
 
 .contact form .box:focus {
     box-shadow: var(--box-shadow-inset);
