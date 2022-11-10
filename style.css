@@ -409,6 +409,7 @@ section {
     object-fit: contain;
 }
 
+/*
 .portfolio .box-container .box .content {
     position: absolute;
     top: 0; left: 0;
@@ -419,19 +420,20 @@ section {
     place-items: center;
     transform: scale(0);
 }
-
+*/
 .portfolio .box-container .box:hover content {
     transform: scale(0);
 }
 
 
 .portfolio .box-container .box .content h3 {
-    font-size: 2.5rem;
+    font-size: 1.8rem;
     color: var(--black);
     text-transform: uppercase;
-    transform: translateY(-5rem);
+    transform: translateY(-4rem);
     opacity: 5;
-    transition-delay: .3s;
+    transition-delay: 2s;
+    text-align: center;
 }
 
 .portfolio .box-container .box:hover .content h3 {
@@ -453,7 +455,9 @@ section {
    box-shadow: var(--box-shadow);
    position: relative;
    border: 1rem 1rem solid transparent;
+   display: flex;
 }
+
 
 .certificate .box-container .box img {
     height: 100%;
@@ -461,6 +465,10 @@ section {
     object-fit: contain;
 }
 
+.certificate .box-container .box h3  {
+   display: flex;
+   flex-direction: column;
+}
 
  
 
