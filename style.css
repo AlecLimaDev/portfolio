@@ -440,6 +440,30 @@ section {
 }
 
 
+.certificate .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
+    gap: 2rem;
+}
+
+.certificate .box-container .box {
+    height: 25rem; 
+   border-radius: .5rem;
+   overflow: hidden;
+   box-shadow: var(--box-shadow);
+   position: relative;
+   border: 1rem 1rem solid transparent;
+}
+
+.certificate .box-container .box img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+
+ 
+
 .contact form {
     margin: 1rem auto;
     max-width: 70rem;
@@ -447,7 +471,7 @@ section {
     box-shadow: var(--box-shadow);
     padding: 2rem;
     position: relative;
-    transition: all 4s;
+    transition: all 60s;
 }
 
 .contact form .box {
