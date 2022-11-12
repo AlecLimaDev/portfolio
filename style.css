@@ -452,9 +452,10 @@ section {
 .certificate .box-container .box {
     height: 25rem; 
     border-radius: .5rem;
-    overflow: hidden;
+    overflow: ;
     box-shadow: var(--box-shadow);
     border-bottom: 1rem solid transparent;
+    display: flex;
 }
 
 .certificate .box-container .box img {
