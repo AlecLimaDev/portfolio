@@ -430,7 +430,7 @@ section {
     font-size: 1.8rem;
     color: var(--black);
     text-transform: uppercase;
-    transform: translateY(-4rem);
+    transform: translateY(-5rem);
     opacity: 5;
     transition-delay: 2s;
     text-align: center;
