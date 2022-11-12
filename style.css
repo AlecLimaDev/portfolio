@@ -336,7 +336,7 @@ section {
 
 .services .box-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
     gap: 2rem;
 }
 
@@ -395,12 +395,12 @@ section {
 }
 
 .portfolio .box-container .box {
-   height: 25rem; 
-   border-radius: .5rem;
-   overflow: hidden;
-   box-shadow: var(--box-shadow);
-   position: relative;
-   border: 1rem 1rem solid transparent;
+    height: 25rem; 
+    border-radius: .5rem;
+    overflow: hidden;
+    box-shadow: var(--box-shadow);
+    position: relative;
+    border: 1rem 1rem solid transparent;
 }
 
 .portfolio .box-container .box img {
@@ -436,11 +436,12 @@ section {
     text-align: center;
 }
 
+
+
 .portfolio .box-container .box:hover .content h3 {
     transform: translateY(0rem);
     opacity: 1;
 }
-
 
 .certificate .box-container {
     display: grid;
@@ -450,14 +451,11 @@ section {
 
 .certificate .box-container .box {
     height: 25rem; 
-   border-radius: .5rem;
-   overflow: hidden;
-   box-shadow: var(--box-shadow);
-   position: relative;
-   border: 1rem 1rem solid transparent;
-   display: flex;
+    border-radius: .5rem;
+    overflow: hidden;
+    box-shadow: var(--box-shadow);
+    border-bottom: 1rem solid transparent;
 }
-
 
 .certificate .box-container .box img {
     height: 100%;
@@ -465,10 +463,27 @@ section {
     object-fit: contain;
 }
 
-.certificate .box-container .box h3  {
-   display: flex;
-   flex-direction: column;
+.certificate .box-container .box .content {
+    font-size: 1.8rem;
+    color: var(--black);
+    text-transform: uppercase;
+    transform: translateY(-4rem);
+    opacity: 5;
+    transition-delay: 2s;
+    text-align: center;
 }
+
+.certificate .box-container .box:hover h3 {
+    transform: translateY(0rem);
+    opacity: 1;
+}
+    
+
+
+
+
+
+
 
  
 
