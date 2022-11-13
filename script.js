@@ -21,7 +21,7 @@ themeToggler.onclick = () => {
 document.addEventListener('DOMContentLoaded', () => {
    new TypeIt(".animate", {
     speed: 500,
-    strings: [["Eu sou um Desenvolvedor Front-End"]]
+    strings: [["Desenvolvedor Front-End"]]
    }).go()
 
 })
