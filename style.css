@@ -414,10 +414,6 @@ section {
     opacity: 0;
 }
 
-
-
-
-
 .certificate .box-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
@@ -455,20 +451,13 @@ section {
     
 
 
-
-
-
-
-
- 
-
 .contact form {
     margin: 1rem auto;
     max-width: 70rem;
     border-radius: .5rem;
     box-shadow: var(--box-shadow);
     padding: 2rem;
-    transition: all 60s;
+    transition: all 50s;
 }
 
 .contact form .box {
@@ -505,6 +494,7 @@ section {
 
 .contact form .box:focus {
     box-shadow: var(--box-shadow-inset);
+    background-color: rgb(194, 179, 179);
 }
 
 
