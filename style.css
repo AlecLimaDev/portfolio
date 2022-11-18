@@ -404,6 +404,8 @@ section {
    transform: translateY(-2rem);
     opacity: 5;
     transition-delay: 2s;
+    text-align: center;
+    font-weight: 600;
 }
 
 
