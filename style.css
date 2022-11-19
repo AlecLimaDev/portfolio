@@ -4,7 +4,7 @@
     --green: #27ae60;
     --black: #444;
     --light-color: #777;
-    --bg-color: #e6e6e6;
+    --bg-color: #fff;
     --border: 1rem solid rgba(0,0,0,.2);
     --box-shadow: .4rem .4rem 1rem #ccc,
                   .4rem .4rem 1rem #fff;
@@ -93,6 +93,10 @@ section {
 .header .user h3 {
     color: var(--black);
     font-size: 2.5rem;
+}
+
+.header  p {
+    font-weight: 700;
 }
 
 .header .user {
