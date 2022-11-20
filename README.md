@@ -1,6 +1,3 @@
-
-[prévie-do-projeto-em-video](../../../../../../C:/Users/alecl/Desktop/projects/portfolio/previa-projeto/review-portfolio.mp4)
-
 # MEU PORTÓFLIO 
 
 ### Descrição
