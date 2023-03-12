@@ -21,5 +21,15 @@ Pensando na forma de incluir a opção Dark Mode no site usei a interatividade d
 Link do deploy: https://aleclimadev.github.io/portfolio/
 
 
+## `LAYOUT`
+
+MODO CLARO
+
+![IMAGE](images/modoLight.PNG)
+
+MODO ESCURO
+
+![IMAGE](images/modoDark.PNG)
+
 
 
