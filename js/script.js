@@ -14,17 +14,19 @@ themeToggler.onclick = () => {
         document.body.classList.add('active');
     } else {
         document.body.classList.remove('active');
-    }
+    }    
 }
 
 
 document.addEventListener('DOMContentLoaded', () => {
    new TypeIt(".animate", {
     speed: 700,
-    strings: [["Desenvolvedor Front-End"]]
+    strings: [["Desenvolvedor Front-End: React, TypeScript, Next.js and Node.Js"]]
    }).go()
 
 })
+
+
 
 
 
