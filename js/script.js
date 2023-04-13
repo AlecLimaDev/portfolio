@@ -21,12 +21,10 @@ themeToggler.onclick = () => {
 document.addEventListener('DOMContentLoaded', () => {
    new TypeIt(".animate", {
     speed: 100,
-    strings: "Desenvolvedor Front-End: React, TypeScript, Next.js and Node.Js",
+    strings: ["Desenvolvedor Front-End: React, TypeScript, Next.js and Node.Js", "Me chama no WhatsApp / Linkedin 👇"],
     loop: true,
    }).go()
-
 })
-
 
 
 
