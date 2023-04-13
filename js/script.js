@@ -20,8 +20,9 @@ themeToggler.onclick = () => {
 
 document.addEventListener('DOMContentLoaded', () => {
    new TypeIt(".animate", {
-    speed: 700,
-    strings: [["Desenvolvedor Front-End: React, TypeScript, Next.js and Node.Js"]]
+    speed: 100,
+    strings: "Desenvolvedor Front-End: React, TypeScript, Next.js and Node.Js",
+    loop: true,
    }).go()
 
 })
