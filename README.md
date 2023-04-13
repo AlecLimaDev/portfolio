@@ -10,7 +10,7 @@ Enfim, um portfólio...
 
 Como forma de ir até o campo indicado sem precisar usar o scroll do mouse adicionei o Scroll-Behavior pra navegar apenas com um click até o campo desejado. 
 
-Pra realização e crianção do layout desse projeto eu usei como forma de padronizar e dar sentido as _variáveis css_ pra está dando harmonia, fluídez e agilidade na desenvolvoltura do meu projeto.
+Para realização e crianção do layout desse projeto eu usei como forma de padronizar e dar sentido as _variáveis css_ pra está dando harmonia, fluídez e agilidade na desenvolvoltura do meu projeto.
 
 Se tratando dos icones que aparecem no site utilizei uma biblioteca css pra está chamando todos eles.
 
