@@ -25,11 +25,11 @@ Link do deploy: https://aleclimadev.github.io/portfolio/
 
 MODO CLARO
 
-![IMAGE](images/modoLight.PNG)
+![IMAGE](assets/modoLight.PNG)
 
 MODO ESCURO
 
-![IMAGE](images/modoDark.PNG)
+![IMAGE](assets/modoDark.PNG)
 
 
 
