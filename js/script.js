@@ -1,36 +1,41 @@
-let menu = document.querySelector('#menu-btn');
-let header = document.querySelector('.header');
+let menu = document.querySelector("#menu-btn");
+let header = document.querySelector(".header");
 
 menu.onclick = () => {
-    menu.classList.toggle('fa-times');
-    header.classList.toggle('active');
-}
+  menu.classList.toggle("fa-times");
+  header.classList.toggle("active");
+};
 
-let themeToggler = document.querySelector('#theme-toggler');
+let themeToggler = document.querySelector("#theme-toggler");
 
 themeToggler.onclick = () => {
-    themeToggler.classList.toggle('fa-sun');
-    if(themeToggler.classList.contains('fa-sun')) {
-        document.body.classList.add('active');
-    } else {
-        document.body.classList.remove('active');
-    }    
+  themeToggler.classList.toggle("fa-sun");
+  if (themeToggler.classList.contains("fa-sun")) {
+    document.body.classList.add("active");
+  } else {
+    document.body.classList.remove("active");
+  }
+};
+
+document.addEventListener("DOMContentLoaded", () => {
+  new TypeIt(".animate", {
+    speed: 100,
+    strings: [
+      "Desenvolvedor Front-End: React, TypeScript, Next.js and Node.Js",
+      "Me chama no WhatsApp / Linkedin 👇",
+    ],
+    loop: true,
+  }).go();
+});
+
+function fetchApi() {
+  fetch('https://api.github.com/users/AlecLimaDev/repos')
+    .then((response) => response.json())
+      .then((data) => {
+        console.log(data);
+      })
 }
 
-
-document.addEventListener('DOMContentLoaded', () => {
-   new TypeIt(".animate", {
-    speed: 100,
-    strings: ["Desenvolvedor Front-End: React, TypeScript, Next.js and Node.Js", "Me chama no WhatsApp / Linkedin 👇"],
-    loop: true,
-   }).go()
-})
-
-
-
-
-
-
-
+fetchApi()
 
 
