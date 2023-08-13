@@ -369,18 +369,19 @@ section {
 }
 
 .portfolio .box-container .box li{
-  font-size: 15px;
+  font-size: 18px;
   list-style: none;
   color: blue;
 }
 
 .portfolio .box-container .box a{
-  font-size: 12px;
+  font-size: 16px;
 }
 
 .portfolio .box-container .box p{
-  font-size: 12px;
-    color: var(--black)
+  font-size: 16px;
+    color: var(--black);
+    margin-top: 6px;
 
 }
 

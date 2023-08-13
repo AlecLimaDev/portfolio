@@ -40,7 +40,7 @@ fetch(url)
       console.log(post);
       output += `<div class="box">
           <h1>Nome do projeto: ${post.name}</h1>
-          <img src="https://enotas.com.br/blog/wp-content/uploads/2021/02/GitHub.jpg">
+          <img src="assets/img/GitHub.png">
           <a target="_blank" href="${post.svn_url}">${post.svn_url}</a>
           <li>${post.language}</li>
           <div class="content">
