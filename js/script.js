@@ -28,14 +28,25 @@ document.addEventListener("DOMContentLoaded", () => {
   }).go();
 });
 
-function fetchApi() {
-  fetch('https://api.github.com/users/AlecLimaDev/repos')
-    .then((response) => response.json())
-      .then((data) => {
-        console.log(data);
-      })
-}
+let output = "";
+let getList = document.querySelector("#iteracao");
 
-fetchApi()
+const url = "https://api.github.com/users/AlecLimaDev/repos";
 
-
+fetch(url)
+  .then((res) => res.json())
+  .then((data) => {
+    data.forEach((post) => {
+      console.log(post);
+      output += `<div class="box">
+          <h1>Nome do projeto: ${post.name}</h1>
+          <img src="assets/img/GitHub.png">
+          <a target="_blank" href="${post.svn_url}">${post.svn_url}</a>
+          <li>${post.language}</li>
+          <div class="content">
+          <p>${post.description}</p>
+          </div>
+      </div>`;
+    });
+    getList.innerHTML = output;
+  });
