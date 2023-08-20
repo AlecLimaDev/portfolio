@@ -42,6 +42,12 @@ body.active {
     0.4rem 0.4rem 1rem #fff inset;
 }
 
+button {
+background-color: transparent;
+color: var(--light-color);
+font-size: 16px;
+}
+
 section {
   min-height: 100vh;
   padding: 2rem;
@@ -168,8 +174,29 @@ section {
   color: var(--black);
   background: var(--bg-color);
 }
+#theme-toggler1 {
+  position: fixed;
+  top: 8rem;
+  right: 2rem;
+  z-index: 1000;
+  height: 5rem;
+  width: 5rem;
+  line-height: 5rem;
+  border-radius: 50%;
+  font-size: 2rem;
+  cursor: pointer;
+  box-shadow: var(--box-shadow);
+  text-align: center;
+  color: var(--black);
+  background: var(--bg-color);
+}
 
 #theme-toggler:hover {
+  color: var(--green);
+  box-shadow: var(--box-shadow-inset);
+}
+
+#theme-toggler1:hover {
   color: var(--green);
   box-shadow: var(--box-shadow-inset);
 }
@@ -345,7 +372,6 @@ section {
   clip-path: circle(100%);
 }
 .services .box-container .box:hover > * {
-
   color: #27ae60;
 }
 
@@ -355,12 +381,32 @@ section {
   gap: 2rem;
 }
 
+.portfolio .box-container #delete-post {
+  background-color: var(--border);
+  color: var(--light-color);
+  padding: 3px;
+  position: relative;
+  top: 6px;
+  padding: 0.5rem 0.5rem;
+  font-size: 1.7rem;
+  cursor: pointer;
+  background: none;
+  color: var(--black);
+  box-shadow: var(--box-shadow);
+}
+
+.portfolio .box-container #delete-post:hover {
+  box-shadow: var(--box-shadow-inset);
+  color: blue;
+}
+
 .portfolio .box-container h1 {
   color: var(--light-color);
+  font-size: large;
 }
 
 .portfolio .box-container .box {
-  height: 25rem;
+  height: 46rem;
   border-radius: 0.5rem;
   overflow: hidden;
   box-shadow: var(--box-shadow);
@@ -368,32 +414,30 @@ section {
   border: 1rem solid transparent;
 }
 
-.portfolio .box-container .box li{
+.portfolio .box-container .box li {
   font-size: 18px;
   list-style: none;
   color: blue;
 }
 
-.portfolio .box-container .box a{
+.portfolio .box-container .box a {
   font-size: 16px;
 }
 
-.portfolio .box-container .box p{
+.portfolio .box-container .box p {
   font-size: 16px;
-    color: var(--black);
-    margin-top: 6px;
-
+  color: var(--black);
+  margin-top: 6px;
 }
 
 .portfolio .box-container .box img {
   height: 50%;
-  width: 170%;
+  width: 150%;
   object-fit: contain;
-  
 }
 
 .portfolio .box-container .box .content {
- /*  position: absolute;
+  /*  position: absolute;
   top: 0;
   left: 0;
   height: 100%;
@@ -504,6 +548,29 @@ section {
 
 .about .row .content {
   flex: 1 1 40rem;
+}
+
+@media (width >= 1000px) {
+  html {
+    font-size: 55%;
+  }
+
+  body {
+    padding-left: 0;
+  }
+
+  .header {
+    left: -110%;
+  }
+
+  .header.active {
+    left: 0%;
+    transition: 0.4s linear;
+  }
+
+  #menu-btn {
+    display: initial;
+  }
 }
 
 @media (width <= 991px) {
