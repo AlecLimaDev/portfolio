@@ -37,8 +37,6 @@ const url = "https://api.github.com/users/AlecLimaDev/repos";
 const addPostForm = document.querySelector(".box-container");
 const button = document.querySelector("button");
 
-
-
 addPostForm.addEventListener("submit", (e) => {
   e.preventDefault();
   fetch(url, {
@@ -69,6 +67,3 @@ fetch(url)
   .then((data) => {
     renderPost(data);
   });
-
-
- 
