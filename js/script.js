@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", () => {
   new TypeIt(".animate", {
     speed: 100,
     strings: [
-      "Desenvolvedor Front-End: React, React Native, TypeScript, Next.js and Node.Js",
+      "Desenvolvedor Full Stack: React, React Native, TypeScript, Node.Js, MySQL e Docker",
       "Me chama no WhatsApp / Linkedin 👇",
     ],
     loop: true,
