@@ -37,10 +37,7 @@ const url = "https://api.github.com/users/AlecLimaDev/repos";
 const addPostForm = document.querySelector(".box-container");
 const button = document.querySelector("button");
 
-button.addEventListener('click', () => {
-  const audio = document.querySelector('audio')
-  audio.play()
-})
+
 
 addPostForm.addEventListener("submit", (e) => {
   e.preventDefault();
@@ -67,7 +64,6 @@ const renderPost = (posts) => {
   postsList.innerHTML = output;
 };
 
-// GET API
 fetch(url)
   .then((res) => res.json())
   .then((data) => {
@@ -75,21 +71,4 @@ fetch(url)
   });
 
 
-  // DELETE FETCH
-/* postsList.addEventListener("click", (e) => {
-  e.preventDefault();
-  let deleteButtonPressed = e.target.id == "delete-post";
-
-  let id = e.target.parentElement.dataset.id;
-
-  console.log(e.target.parentElement.dataset.id);
-
-  if (deleteButtonPressed) {
-    fetch(`${url}/${id}`, {
-      method: "DELETE",
-    })
-      .then((res) => res.json())
-      .then(() => location.reload());
-  }
-});
- */
+ 
